@@ -34,9 +34,9 @@ app.post('/get-decision', (req, res) => {
 });
 
 app.get('/', (req, res) => {
-  res.send('Decision Engine API running 🥳');
+  res.send('Decision Engine API running');
 });
 
 app.listen(config.PORT, () => {
-  console.log(`Server is running on port ${config.PORT}`);
+  console.log(`Decision Engine Server is running on port ${config.PORT}`);
 });
